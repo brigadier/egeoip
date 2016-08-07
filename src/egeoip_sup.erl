@@ -24,14 +24,15 @@ init([]) ->
     {ok, {{one_for_one, 5, 300}, Processes}}.
 
 worker_names() ->
-    {egeoip_0,
-     egeoip_1,
-     egeoip_2,
-     egeoip_3,
-     egeoip_4,
-     egeoip_5,
-     egeoip_6,
-     egeoip_7}.
+    {egeoip_0}.
+%%   ,
+%%      egeoip_1,
+%%      egeoip_2,
+%%      egeoip_3,
+%%      egeoip_4,
+%%      egeoip_5,
+%%      egeoip_6,
+%%      egeoip_7}.
 
 worker([], _File) ->
     [];
